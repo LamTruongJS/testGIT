@@ -1,0 +1,17 @@
+html {
+  display: block;
+  box-sizing: border-box;
+}
+.cart {
+  color: white;
+  padding: 20px;
+  &__item {
+    overflow: hidden;
+
+    background-color: #ebecf0;
+    height: 90px;
+    border: 1px solid #ebecf0;
+    color: black;
+    border-radius: 10px;
+  }
+}
