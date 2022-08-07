@@ -13,7 +13,7 @@ Login.propTypes = {
   errorIncorrect: PropTypes.string,
 };
 Login.defaultValues = {
-  onSubmit: null,
+  onSubmit1: null,
   errorIncorrect: "",
 };
 function Login(props) {
